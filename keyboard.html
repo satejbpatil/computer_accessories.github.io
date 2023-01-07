@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: cursive;
+        color: black;
+        color: rgb(255, 255, 255);
+      }
+      .hea header {
+        height: 95px;
+        background-color: #2c2c2c;
+      }
+      .hea ul {
+        margin: 0px;
+        display: flex;
+        padding: 21px;
+      }
+      .li12,
+      .li1 {
+        list-style: none;
+        /* margin: 0px 50px 0px 50px; */
+      }
+      #li123 {
+        margin-left: 230px;
+      }
+      .hea header ul a {
+        text-decoration: none;
+        color: white;
+        /* margin: 50px 50px 50px 50px; */
+        margin: 18px 39px;
+        display: block;
+      }
+      .li12:hover {
+        background-color: #5c005c;
+        border-radius: 7px;
+        cursor: pointer;
+      }
+      .keyclass {
+        background-color: #2c2c2c;
+      }
+      .cover {
+        border: 2px solid rgb(70, 69, 69);
+        height: 300px;
+        margin: auto;
+        width: 80%;
+      }
+
+      img {
+        width: 100%;
+        height: 470px;
+      }
+      #key2 {
+        height: 200px;
+      }
+
+      h1,
+      h2 {
+        text-align: center;
+      }
+
+      .center {
+        border: 2px solid black;
+        /* border-spacing: 10px; */
+        width: 90%;
+        margin: auto;
+      }
+
+      table {
+        margin: 10px auto;
+        width: 100%;
+        padding: 10px 10px;
+        /* align-items: center; */
+        border-spacing: 15px;
+        font-size: 1.5pc;
+      }
+
+      table tr td {
+        /* border: 1px solid red ; */
+        padding: 10px 10px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 1px 2px 8px rgb(15, 15, 15);
+      }
+
+      tr:nth-child(odd) {
+        background-color: #636463;
+      }
+
+      tr:nth-child(even) {
+        background-color: #690359;
+      }
+      tr:hover {
+        background-color: #bfbac0;
+      }
+      table tr td button {
+        width: 60%;
+        background-color: rgb(40, 40, 40);
+        border-radius: 10px;
+        border: none;
+        height: 30px;
+        box-shadow: 1px 2px 8px rgb(39, 38, 38);
+        font-size: 1.4pc;
+        /* height: 80%; */
+      }
+
+      table tr td:hover {
+        box-shadow: 2px 3px 8px rgb(60, 60, 60);
+      }
+
+      button:hover {
+        /* width: 65%;
+            height: 32px; */
+        background-color: rgb(54, 55, 54);
+        /* box-shadow: 1px 2px 8px rgb(230, 226, 11); */
+        /* height: 80%; */
+      }
+
+      .hotelList {
+        border: none;
+        /* width: 100%; */
+        font-size: 25px;
+        text-align: center;
+        /* background-color: #a7ec4b; */
+        /* height: 100%; */
+      }
+
+      .thirdcol {
+        width: 23%;
+      }
+      .slideshow-container {
+        max-width: 1000px;
+        height: 500px;
+        position: relative;
+        margin: auto;
+      }
+      #key2:hover {
+        height: 430px;
+        width: 430px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="hea">
+      <header class="header">
+        <ul class="ul">
+          <li class="li1">
+            <a href="">Hi-Tech.com</a>
+          </li>
+          <li id="li123" class="li12">
+            <a target="_blank" href="main.html">Home</a>
+          </li>
+          <li class="li12">
+            <a target="_blank" href="keyboard.html">Keyboard</a>
+          </li>
+          <li class="li12"><a target="_blank" href="mouse.html">Mouse</a></li>
+          <li class="li12">
+            <a target="_blank" href="pendrive.html">Pendrive</a>
+          </li>
+          <li class="li12">
+            <a target="_blank" href="headphone.html">Headphone</a>
+          </li>
+          <li class="li12"><a target="_blank" href="#">Contact Us</a></li>
+          <li class="li12">
+            <a href="loginform.php">Log In/Sign In</a>
+          </li>
+        </ul>
+      </header>
+    </div>
+    <div class="keyclass">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext"><br /><br /><br /></div>
+          <img src="key2.jpg" style="width: 100%" />
+          <!-- <div class="text"></div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext"><br /><br /><br /></div>
+          <img src="key3.jpg" style="width: 100%" />
+          <!-- <div class="text">Kothimbir Wadi</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext"><br /><br /><br /></div>
+          <img src="key4.jpg" style="width: 100%" />
+          <!-- <div class="text">Puran Poli</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext"><br /><br /><br /></div>
+          <img src="key5.jpg" style="width: 100%" />
+          <!-- <div class="text">Modak</div> -->
+        </div>
+
+        <!-- <div class="mySlides fade">
+          <div class="numbertext">5 / 6</div>
+          <img src="slide6.webp" style="width: 100%" />
+          <div class="text">Vada Pav</div> -->
+        <!-- </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 6</div>
+          <img src="slide7.webp" style="width: 100%" /> -->
+        <!-- <div class="text">Misal</div> -->
+        <!-- </div> -->
+      </div>
+      <br />
+
+      <div style="text-align: center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {
+            slideIndex = 1;
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+          setTimeout(showSlides, 1500); // Change image every 3 seconds
+        }
+      </script>
+
+      <h1>Keyboard</h1>
+      <h2>GET up to 40% off on Every Keyboard.</h2>
+      <br />
+      <h2>Special Offer,Limited Offer.</h2>
+      <div class="center">
+        <table>
+          <tr>
+            <form action="loginform.php" method="post" id="nameform1">
+              <td>
+                <div class="qwe">
+                  <img src="key2.jpg" id="key2" style="width: 100%" />
+                </div>
+                <input
+                  class="hotelList"
+                  type="text"
+                  name="hotel"
+                  value="DELL Keyboard"
+                  style="background-color: #312f2f"
+                />
+              </td>
+              <td>
+                <input
+                  class="hotelList"
+                  type="text"
+                  name="cost"
+                  value="599 Rs"
+                  style="background-color: #312f2f"
+                />
+              </td>
+              <td class="thirdcol">
+                <a href="loginform.php">
+                  <button>Order Now Get 20% Off.</button>
+                </a>
+              </td>
+            </form>
+          </tr>
+          <tr>
+            <form action="loginform.php" method="post" id="nameform2">
+              <!-- <td>Chais and Thais.</td>
+                    <td>15 Rs.</td> -->
+              <td>
+                <div class="qwe">
+                  <img src="key3.jpg" id="key2" style="width: 100%" />
+                </div>
+                <input
+                  class="hotelList"
+                  type="text"
+                  name="hotel"
+                  value="HP Keyboard"
+                  style="background-color: #312f2f"
+                />
+              </td>
+              <td>
+                <input
+                  class="hotelList"
+                  type="text"
+                  name="cost"
+                  value="499 Rs"
+                  style="background-color: #312f2f"
+                />
+              </td>
+              <td class="thirdcol">
+                <!-- <a href="lastA.html"><button>Order</button></a> -->
+                <a href="loginform.php"
+                  ><button type="submit" form="nameform2" value="submit">
+                    Order Now Get 30% Off.
+                  </button></a
+                >
+              </td>
+            </form>
+          </tr>
+          <tr>
+            <form action="loginform.php" method="post" id="nameform3">
+              <td>
+                <div class="qwe">
+                  <img src="key4.jpg" id="key2" style="width: 100%" />
+                </div>
+                <input
+                  class="hotelList"
+                  type="text"
+                  name="hotel"
+                  value="Zebronics Keyboard"
+                  style="background-color: #312f2f"
+                />
+              </td>
+              <td>
+                <input
+                  class="hotelList"
+                  type="text"
+                  name="cost"
+                  value="349 Rs"
+                  style="background-color: #312f2f"
+                />
+              </td>
+              <td class="thirdcol">
+                <a href="loginform.php"
+                  ><button type="submit" form="nameform3" value="submit">
+                    Order Now Get 35% Off.
+                  </button></a
+                >
+              </td>
+            </form>
+          </tr>
+          <tr>
+            <form action="loginform.php" method="post" id="nameform4">
+              <td>
+                <div class="qwe">
+                  <img src="key5.jpg" id="key2" style="width: 100%" />
+                </div>
+                <input
+                  class="hotelList"
+                  type="text"
+                  name="hotel"
+                  value="Gaming Keyboard"
+                  style="background-color: #312f2f"
+                />
+              </td>
+              <td>
+                <input
+                  class="hotelList"
+                  type="text"
+                  name="cost"
+                  value="999 Rs"
+                  style="background-color: #312f2f"
+                />
+              </td>
+              <td class="thirdcol">
+                <a href="loginform.php">
+                  <button type="submit" form="nameform4" value="submit">
+                    Order Now Get 35% Off.
+                  </button>
+                </a>
+              </td>
+            </form>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
